@@ -1,5 +1,6 @@
 #include <stdio.h>
+const char *name = "World";
 int main() {
-printf("Hello, #{ARGV.first}!");
-return 0;
+    printf("Hello, %s", name);
+    return 0;
 }
